@@ -1,4 +1,4 @@
-package hh.apistart
+package hh.clipdb
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

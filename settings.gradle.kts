@@ -1,1 +1,1 @@
-rootProject.name = "apistart"
+rootProject.name = "clipdb"

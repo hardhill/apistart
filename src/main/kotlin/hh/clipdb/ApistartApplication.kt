@@ -1,4 +1,4 @@
-package hh.apistart
+package hh.clipdb
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

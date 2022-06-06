@@ -1,7 +1,5 @@
-package hh.apistart.api.service
+package hh.clipdb.api.service
 
-import hh.apistart.api.entity.Category
-import hh.apistart.api.repository.ICategoryRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
@@ -20,5 +18,12 @@ class CategoryService {
 
     fun add(category: Category):Category{
         return categoryRepository.save(category)
+    }
+    fun update(category: Category){
+        categoryRepository.save(category)
+    }
+
+    fun delete(id:Long){
+        categoryRepository.deleteById(id)
     }
 }

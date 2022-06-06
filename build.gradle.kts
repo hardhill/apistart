@@ -8,7 +8,7 @@ plugins {
     kotlin("plugin.jpa") version "1.6.21"
 }
 
-group = "hh.apistart"
+group = "hh.clipdb"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
@@ -38,6 +38,8 @@ dependencies {
 
     runtimeOnly("org.postgresql:postgresql")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("org.vesalainen.gpx:GPX11:1.0.2")
+    implementation("club.zhcs:gpx-parser:1.0.0")
 }
 
 tasks.withType<KotlinCompile> {
